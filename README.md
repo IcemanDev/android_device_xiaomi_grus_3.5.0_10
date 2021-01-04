@@ -26,4 +26,4 @@ If the KERNEL_DEVELOPMENT variable in the BoardConfig.mk file is set to TRUE you
 (Kernel source: https://github.com/pengus77/kowalski-grus)
 
 If the KERNEL_DEVELOPMENT variable in the BoardConfig.mk file is set to FALSE, the TARGET_PREBUILT_KERNEL, TARGET_PREBUILT_DTB, and BOARD_PREBUILT_DTBOIMAGE variables
-they must be defined with the kernel image path, dtb and binary dtbo precompiled in the BoardConfig.mk file.# android_device_xiaomi_grus_3.5.0_10
+they must be defined with the kernel image path, dtb and binary dtbo precompiled in the BoardConfig.mk file.
