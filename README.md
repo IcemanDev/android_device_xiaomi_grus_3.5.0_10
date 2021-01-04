@@ -1,4 +1,4 @@
-# android_device_xiaomi_grus_ten
+# android_device_xiaomi_grus_3.5.0_10
 
 Android TWRP 10 device tree for Xiaomi Mi9SE (codname: grus).
 
