@@ -1,4 +1,14 @@
 # mount point  fstype device                             device2              flags
+
+# Logical partitions
+#
+odm			/odm		ext4
+product		/product	ext4
+system		/system		ext4
+vendor		/vendor		ext4
+
+# Physical partitions
+#
 /boot          emmc   /dev/block/bootdevice/by-name/boot			             flags=backup=1;display="Boot";flashimg
 /dtbo          emmc   /dev/block/bootdevice/by-name/dtbo                         flags=backup=1;display="DTB Overlays";flashimg=1;subpartitionof=/boot
 /cache         ext4   /dev/block/bootdevice/by-name/cache			             flags=wipeingui;wipeduringfactoryreset
